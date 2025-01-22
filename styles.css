@@ -66,11 +66,22 @@
         header nav ul li a:hover {
             background-color: rgba(255, 255, 255, 0.2);
         }
-        header{
-            background: url('newbackground.jpg') center/cover no-repeat;
+        header .videocontainer{
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100;
         }
         
         /* Hero Section */
+        .headline{
+            color: #ddd;
+            background-image: url("nexonbackground.jpg");
+            background-size: contain;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
         .hero {
             color: #fff;
             display: flex;
